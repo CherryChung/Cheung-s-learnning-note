@@ -1,2 +1,2 @@
-# Cheung-s-learnning-note
-记录学习的足迹
+# Cheung's-learnning-note
+记录学习和成长足迹
