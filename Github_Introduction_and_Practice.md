@@ -34,21 +34,23 @@ user.email/214638496 -->
     - git checkout master
     <!-- - 切换回master分支 -->
 - git merge
-<<<<<<< HEAD
     <!-- - 分支合并 -->
     - git checkout master
     <!-- - 切换回master分支 -->
     - git merge --no-ff feature-a
     <!-- - 创建合并提交 -->
-- git log --graph
-<!-- - 以图标形式查看分支 -->
+
+<!-- log -->
+    - git log
+    <!-- - 查看以当前状态为终点的历史日志 -->
+    - git log --graph
+    <!-- - 以图标形式查看分支 -->
+    - git reflog
+    <!-- - 查看当前仓库的操作日志 -->
+
 ### 更改提交的操作
 - git reset
 <!-- - 回溯历史版本,这里通过一个例子回溯到创建feature-a之前创建分支fix-b，再回溯到merge feature-a后的版本 -->
-- git log
-<!-- - 查看以当前状态为终点的历史日志 -->
-- git reflog
-<!-- - 查看当前仓库的操作日志 -->
 
 ### 消除冲突
 - git merge --no-ff fix-b
@@ -57,9 +59,10 @@ user.email/214638496 -->
   - git add
   - git commit
 - git commit --amend
-
-### git fix-b
-
+- git rebase -i
+### 注意点
+- 合并merge和回溯reset都需要回到master分支
+- 
 ### 
 [Git常用指令总结 | Luozm's Blog](https://luozm.github.io/git)
 
