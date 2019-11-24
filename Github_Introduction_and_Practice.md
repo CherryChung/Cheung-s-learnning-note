@@ -43,8 +43,14 @@ user.email/214638496 -->
 <!-- - 以图标形式查看分支 -->
 ### 更改提交的操作
 - git reset
-<!-- - 回溯历史版本 -->
-  - 
+<!-- - 回溯历史版本,这里通过一个例子回溯到创建feature-a之前创建分支fix-b，再回溯到merge feature-a后的版本 -->
+- git log
+<!-- - 查看以当前状态为终点的历史日志 -->
+- git reflog
+<!-- - 查看当前仓库的操作日志 -->
+
+### 消除冲突
+- 
 ### 
 [Git常用指令总结 | Luozm's Blog](https://luozm.github.io/git)
 
