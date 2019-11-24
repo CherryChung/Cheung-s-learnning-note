@@ -26,7 +26,20 @@ user.email/214638496 -->
 ![](2019-11-05-22-26-08.png)
 
 ### 分支的操作
-
+<!-- 可以在互不影响前提下对多个功能进行开发 -->
+- git branch
+<!-- 查看分支一览表 -->
+- git checkout -b feature-a
+<!-- 创建分支feature-a -->
+- git checkout master
+<!-- - 切换回master分支 -->
+- git merge
+<!-- - 分支合并 -->
+  - git checkout master
+  <!-- - 切换回master分支 -->
+  - git merge --no-ff feature-a
+  <!-- - 创建合并提交 -->
+  - 
 ### 
 [Git常用指令总结 | Luozm's Blog](https://luozm.github.io/git)
 
