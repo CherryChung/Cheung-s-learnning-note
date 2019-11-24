@@ -52,7 +52,11 @@ user.email/214638496 -->
 
 ### 消除冲突
 - git merge --no-ff fix-b
-- ![](../../source/img/2019-11-24-11-23-50.png)
+  - ![](../../source/img/2019-11-24-11-23-50.png)
+  - 解决冲突
+  - git add
+  - git commit
+- git commit --amend
 
 ### git fix-b
 
