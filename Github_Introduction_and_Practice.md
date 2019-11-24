@@ -1,29 +1,10 @@
 ### 作者 [日]
 **关键字**：
-
-版本管理·分支·合并·Fork·Issue·BUG管理·任务管理·Markdown·代码审查·社会化编程·Jenkins Github Flow·Git Flow·hub命令
-
-### 快速入门
+>版本管理·分支·合并·Fork·Issue·BUG管理·任务管理·Markdown·代码审查·社会化编程·Jenkins Github Flow·Git Flow·hub命令
 
 - 版本管理
-- [ ] 集中型
-- [x] 分散性
-
-Fork
-<!-- 将GitHub中的某个特定仓库复制到自己的账户下，fork出的仓库和原仓库是两个不同的仓库，用户可以随意编辑 -->
-
-- 初始设置
-<!-- user.name/cheung
-user.email/214638496 -->
-
-- 设置SSH KEY
-![](2019-11-05-22-17-23.png)
-<!-- 密码为斜杠 -->
-
-![](2019-11-05-22-22-31.png)
-
-- 认证与通信
-![](2019-11-05-22-26-08.png)
+  - [ ] 集中型——SVN
+  - [x] 分散性——Git
 
 ### 分支的操作
 <!-- 可以在互不影响前提下对多个功能进行开发 -->
@@ -40,13 +21,13 @@ user.email/214638496 -->
     - git merge --no-ff feature-a
     <!-- - 创建合并提交 -->
 
-<!-- log -->
-    - git log
-    <!-- - 查看以当前状态为终点的历史日志 -->
-    - git log --graph
-    <!-- - 以图标形式查看分支 -->
-    - git reflog
-    <!-- - 查看当前仓库的操作日志 -->
+### 查看日志
+- git log
+<!-- - 查看以当前状态为终点的历史日志 -->
+- git log --graph
+<!-- - 以图标形式查看分支 -->
+- git reflog
+<!-- - 查看当前仓库的操作日志 -->
 
 ### 更改提交的操作
 - git reset
@@ -60,17 +41,21 @@ user.email/214638496 -->
   - git commit
 - git commit --amend
 - git rebase -i
-
-### feature-c
+  - HEAD~2,压缩最近2次提交
+  - pick → fixup
+- 推送至远程仓库
+  - git remote add——添加远程仓库
+  - git push
+    - -u origin master,推送到master分支
+    - -u origin feature-d，推送到master以外的分支
+- 从远程仓库获取
+  - git clone，获取远程仓库
+  - git pull,获取最新的远程仓库分支
 ### 注意点
 - 合并merge和回溯reset都需要回到master分支
-- 
-### 
-[Git常用指令总结 | Luozm's Blog](https://luozm.github.io/git)
 
-### 奇巧
-git 修改配置
-![](2019-11-09-09-02-24.png)
-
-git push的时候报错
-![](2019-11-09-09-20-53.png)
+### 参考资料
+- Pro Git
+- LearnGitBranching
+- tryGit
+- [Git常用指令总结 | Luozm's Blog](https://luozm.github.io/git)
