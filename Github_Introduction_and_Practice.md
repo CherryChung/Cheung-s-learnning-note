@@ -1,6 +1,6 @@
 ### 作者 [日]
 **关键字**：
->版本管理·分支·合并·Fork·Issue·BUG管理·任务管理·Markdown·代码审查·社会化编程·Jenkins Github Flow·Git Flow·hub命令
+>版本管理、分支、合并、Fork、Issue、BUG管理、任务管理、Markdown、代码审查、社会化编程、Jenkins Github Flow、Git Flow、hub命令...
 
 - 版本管理
   - [ ] 集中型——SVN
