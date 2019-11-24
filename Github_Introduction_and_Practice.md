@@ -28,17 +28,22 @@ user.email/214638496 -->
 ### 分支的操作
 <!-- 可以在互不影响前提下对多个功能进行开发 -->
 - git branch
-<!-- 查看分支一览表 -->
-- git checkout -b feature-a
-<!-- 创建分支feature-a -->
-- git checkout master
-<!-- - 切换回master分支 -->
+    <!-- 查看分支一览表 -->
+    - git checkout -b feature-a
+    <!-- 创建分支feature-a -->
+    - git checkout master
+    <!-- - 切换回master分支 -->
 - git merge
-<!-- - 分支合并 -->
-  - git checkout master
-  <!-- - 切换回master分支 -->
-  - git merge --no-ff feature-a
-  <!-- - 创建合并提交 -->
+    <!-- - 分支合并 -->
+    - git checkout master
+    <!-- - 切换回master分支 -->
+    - git merge --no-ff feature-a
+    <!-- - 创建合并提交 -->
+- git log --graph
+<!-- - 以图标形式查看分支 -->
+### 更改提交的操作
+- git reset
+<!-- - 回溯历史版本 -->
   - 
 ### 
 [Git常用指令总结 | Luozm's Blog](https://luozm.github.io/git)
