@@ -34,6 +34,7 @@ user.email/214638496 -->
     - git checkout master
     <!-- - 切换回master分支 -->
 - git merge
+<<<<<<< HEAD
     <!-- - 分支合并 -->
     - git checkout master
     <!-- - 切换回master分支 -->
@@ -50,7 +51,11 @@ user.email/214638496 -->
 <!-- - 查看当前仓库的操作日志 -->
 
 ### 消除冲突
-- 
+- git merge --no-ff fix-b
+- ![](../../source/img/2019-11-24-11-23-50.png)
+
+### git fix-b
+
 ### 
 [Git常用指令总结 | Luozm's Blog](https://luozm.github.io/git)
 
